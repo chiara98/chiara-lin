@@ -1,0 +1,368 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  font-weight: normal;
+  font-size: 55px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Dancing Script';
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+/*  font-family: "Oswald";*/
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+  padding: 0;
+  z-index: 1;
+  position: relative;
+
+}
+
+#slide1 h3 {
+  padding-top: 40px;
+  font-family: "Dancing Script";
+  font-size: 30px;
+}
+.center{
+  margin: 0 auto;
+}
+
+.content{
+  margin: 0 auto;
+  width: 960px;
+}
+.clear{
+  clear:both;
+}
+
+#header {
+  width: 100%;
+  background: url('../img/header-bg.png');
+  height: 80px;
+  position: fixed;
+  margin-top: 30px;
+}
+
+#nav {
+  width: 410px;
+  float: right;
+  margin-top: 20px;
+}
+
+#logo a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+  color: #fff;
+  font-family: "Wellfleet";
+  font-weight: bold;
+}
+
+#nav ul {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  margin-left: -70px;
+  list-style: none;
+}
+
+#nav li {
+  margin-top: 9px;
+  float: left;
+  padding-left: 21px;
+}
+
+#nav li a{
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Wellfleet";
+}
+
+#nav li a.active {
+  color: #fff;
+  opacity: 1;
+  border-bottom: 2px solid #fff;
+}
+
+#nav li a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.quotes {
+font-family: 'Open Sans', sans-serif;
+letter-spacing: 2pt;
+font-style: bold;
+
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  margin: 50px auto;
+}
+
+.quotes_container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#christmas_tree {
+  background: url('../img/realmoon.png') no-repeat;
+  width: 77px;
+  height: 77px;
+  margin: 0 auto;
+  position: relative;
+  bottom: -35px;
+}
+
+#divider {
+  background: url('../img/divider.png') no-repeat;
+  width: 300px;
+  height: 35px;
+  margin: 0px auto 27px auto;
+
+}
+
+#ribbon {
+  background: url('../img/border1.png') no-repeat;
+  width: 300px;
+  height: 156px;
+  margin: -50px auto;
+  display: block;
+  position: relative;
+  top: -38px;
+}
+
+#snowflakes1 {
+  background: url('../img/star.png') no-repeat;
+  width: 24px;
+  height: 21px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  bottom: -54px;
+  left: -102px;
+}
+
+#snowflakes2 {
+  background: url('../img/star.png') no-repeat;
+  width: 25px;
+  height: 21px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  bottom: -33px;
+  right: -100px;
+}
+
+#slide1, #slide2 {
+  width:100%;
+}
+
+#slide1 {
+  background: url('../img/japantrip2.jpg') 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
+
+}
+
+
+#slide2{
+  background-color: #254F6B;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+#slide2 .quotes {
+  text-align: center;
+  margin-top: -150px;
+  color: white;
+
+
+}
+
+#slide2 blockquote{
+  font-family: 'Old Standard TT', serif;
+
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: white;
+  font-size: 20px;
+
+
+}
+
+#slide3 {
+  background: url('../img/japan.jpg') 50% 0 no-repeat fixed;
+
+  color: #fff;
+  height: 1000px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+
+
+
+
+}
+
+#slide3 .quotes {
+  text-align: center;
+  position: relative;
+  margin-top: -150px;
+  margin-bottom: 300px;
+
+}
+
+#schoolsection1 {
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 100px;
+}
+
+#schoolsection2 {
+
+  text-align: center;
+  margin-bottom: -500;
+  margin-top: 350px;
+
+}
+
+#image1 {
+  margin-top: -1000px;
+  margin-bottom: 800px;
+  margin-left: 400px;
+
+}
+
+#image2 {
+  margin-bottom: 150px;
+  margin-top: -600px;
+  margin-left: -200px;
+  mar
+}
+
+.right-half h4 {
+  font-family: "Playfair Display SC";
+  font-size:30px;
+}
+
+.right-half p {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-size: 30px;
+}
+
+/* #slide3 .quotes::after {
+  content: '';
+  display: block;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+
+} */
+
+
+
+
+
+
+
+
+#slide4{
+  background-color: #EBE2E2;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+
+      height: 900px;
+}
+
+#slide4 .quotes {
+  text-align: center;
+  margin-top: -150px;
+
+
+
+
+}
+
+#slide4 h4 {
+  font-family: "Playfair Display SC";
+
+font-size: 30px;
+text-align: left;
+margin-left: -200px;
+
+}
+
+#slide4 p {
+  margin-left: -150px;
+  font-size: 25px;
+  font-family: "Cormorant Garamond";
+
+
+}
+
+  #slide5{
+  background: url("../img/imagehappy.jpg") 50% 0 no-repeat fixed;
+  height: 200px;
+  margin: 0 auto;
+  padding: 250px 0;
+  color: #fff;
+  background-size: cover;
+  }
+#slide5 .quotes {
+  margin-top: -100px;
+  color: black;
+  margin-left: 300px;
+  padding-bottom: 130px;
+}
+#slide5 img {
+  margin-left: 100px;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 150px;
+
+}
+#link {
+  margin-left: -100px;
+}
+#fb {
+  margin-left: 100px;
+}
+#hub {
+  margin-left: 100px;
+}
