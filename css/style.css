@@ -74,7 +74,7 @@ h3 {
   font-size: 30px;
   margin-top: 20px;
   color: #fff;
-  font-family: "Wellfleet";
+  font-family: 'Antic Didone', serif;
   font-weight: bold;
 }
 
@@ -112,7 +112,7 @@ h3 {
 }
 
 .quotes {
-font-family: 'Open Sans', sans-serif;
+font-family: 'Antic Didone', serif;
 letter-spacing: 2pt;
 font-style: bold;
 
@@ -192,12 +192,12 @@ font-style: bold;
 
 
 #slide2{
-  background-color: #254F6B;
+  background-color: #090A10;
   color: #333333;
   height: 300px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 200px 0;
+  padding: 250px 0;
 }
 
 #slide2 .quotes {
@@ -209,8 +209,7 @@ font-style: bold;
 }
 
 #slide2 blockquote{
-  font-family: 'Old Standard TT', serif;
-
+  font-family: 'Spectral', serif;
   text-align: center;
   margin-right: 0px;
   margin-left: 0px;
