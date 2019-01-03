@@ -9,7 +9,7 @@ h1 {
   font-weight: normal;
   font-size: 55px;
   text-align: center;
-  color: #fff;
+  color: #f7f9fb;
   margin: 0;
   padding: 0;
 }
@@ -19,7 +19,7 @@ h2 {
   font-weight: normal;
   font-size: 40px;
   text-align: center;
-  color: #fff;
+  color: #f7f9fb;
   margin: 0;
   padding: 0;
 }
@@ -68,12 +68,12 @@ h3 {
 }
 
 #logo a {
-  color: #fff;
+  color: #f7f9fb;
   text-decoration: none;
   float: left;
   font-size: 30px;
   margin-top: 20px;
-  color: #fff;
+  color: #f7f9fb;
   font-family: 'Antic Didone', serif;
   font-weight: bold;
 }
@@ -93,7 +93,7 @@ h3 {
 }
 
 #nav li a{
-  color: #fff;
+  color: #f7f9fb;
   opacity: 0.6;
   font-size: 16px;
   text-decoration: none;
@@ -101,13 +101,13 @@ h3 {
 }
 
 #nav li a.active {
-  color: #fff;
+  color: #f7f9fb;
   opacity: 1;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #f7f9fb;
 }
 
 #nav li a:hover {
-  color: #fff;
+  color: #f7f9fb;
   opacity: 1;
 }
 
@@ -182,7 +182,7 @@ font-style: bold;
 
 #slide1 {
   background: url('../img/japantrip2.jpg') 50% 0 no-repeat fixed;
-  color: #fff;
+  color: #f7f9fb;
   height: 600px;
   margin: 0;
   padding: 200px 0 260px 0;
@@ -192,7 +192,7 @@ font-style: bold;
 
 
 #slide2{
-  background-color: #090A10;
+  background-color: #123140;
   color: #333333;
   height: 300px;
   margin: 0 auto;
@@ -221,10 +221,11 @@ font-style: bold;
 
 }
 
-#slide3 {
+.slide3 {
   background: url('../img/japan.jpg') 50% 0 no-repeat fixed;
 
-  color: #fff;
+
+  color: #f7f9fb;
   height: 1000px;
   padding: 170px 0 0 0;
   background-size: cover;
@@ -233,8 +234,12 @@ font-style: bold;
 
 
 }
+.background-tint {
+  background-color: rgba(255,215,0,.5);
+ background-blend-mode: multiply;
+}
 
-#slide3 .quotes {
+.slide3 .quotes {
   text-align: center;
   position: relative;
   margin-top: -150px;
@@ -301,36 +306,96 @@ font-style: bold;
 
 
 #slide4{
-  background-color: #EBE2E2;
+background-color: #696969;
+
   margin: 0 auto;
   overflow: hidden;
   padding: 200px 0;
 
-      height: 900px;
+      height: 750px;
 }
 
 #slide4 .quotes {
   text-align: center;
   margin-top: -150px;
-
-
+  margin-bottom: 100px;
 
 
 }
+
 
 #slide4 h4 {
   font-family: "Playfair Display SC";
 
+
 font-size: 30px;
-text-align: left;
-margin-left: -200px;
+text-align: center;
+
+width: 1440px;
+height: 150px;
+margin-left: -6px;
+
 
 }
 
+.experience1_container {
+position: relative;
+width: 1440px;
+height: 200%;
+margin-left: -320px;
+
+color: white;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: rgba(192,192,192, .4);
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.experience1_container:hover .overlay {
+  width: 100%;
+  left: 0%;
+
+  height: 100%;
+
+}
+
+.experience1_container:hover {
+  color: #696969;
+
+}
+
+.text {
+  color: white;
+  font-size: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 92%;
+}
+
+
 #slide4 p {
   margin-left: -150px;
+  font-size: 20px;
+  font-family: 'Antic Didone', serif;
+  margin-left: 10px;
+  margin-top: 60px;
   font-size: 25px;
-  font-family: "Cormorant Garamond";
+
+
 
 
 }
@@ -340,7 +405,7 @@ margin-left: -200px;
   height: 200px;
   margin: 0 auto;
   padding: 250px 0;
-  color: #fff;
+  color: #f7f9fb;
   background-size: cover;
   }
 #slide5 .quotes {
