@@ -17,23 +17,21 @@
 <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Antic+Didone|Spectral" rel="stylesheet">
 
- <script>
- </script>
   </head>
+  <script>
+  var myVar;
+  function myFunction(){
+    myVar = setTimeout(showPage, 3000);
+  }
 
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
 
   <body onload="myFunction()" style="margin:0;">
-    <script>
-    var myVar;
-    function myFunction(){
-      myVar = setTimeout(showPage, 3000);
-    }
 
-    function showPage() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("myDiv").style.display = "block";
-    }
-    </script>
 
     <div id="loader"></div>
     <div style="display:none;" id="myDiv" class="animate-bottom">
