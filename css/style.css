@@ -113,9 +113,10 @@ h3 {
 }
 
 .quotes {
-font-family: 'Antic Didone', serif;
+font-family: 'Didot'
+
 letter-spacing: 2pt;
-font-style: bold;
+font-style: lighter;
 
   font-weight: bold;
   font-size: 50px;
@@ -211,7 +212,7 @@ font-style: bold;
 }
 
 #slide2 blockquote{
-  font-family: 'Spectral', serif;
+  font-family: 'Arial';
   text-align: center;
   margin-right: 0px;
   margin-left: 0px;
@@ -325,8 +326,13 @@ background-color: #696969;
   margin-top: -150px;
   margin-bottom: 100px;
   width: 100px;
+  margin-left: 270px;
 
 
+}
+
+#mood_link {
+  text-align: center;
 }
 
 
